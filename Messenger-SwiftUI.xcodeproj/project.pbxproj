@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041A1A9B2B5D00DA00E6695C /* Messenger_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1A9A2B5D00DA00E6695C /* Messenger_SwiftUIApp.swift */; };
+		041A1A9D2B5D00DA00E6695C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1A9C2B5D00DA00E6695C /* ContentView.swift */; };
+		041A1A9F2B5D00DD00E6695C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041A1A9E2B5D00DD00E6695C /* Assets.xcassets */; };
+		041A1AA22B5D00DD00E6695C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041A1AA12B5D00DD00E6695C /* Preview Assets.xcassets */; };
+		041A1AA92B5D015D00E6695C /* InboxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AA82B5D015D00E6695C /* InboxScreen.swift */; };
+		041A1AAC2B5D02B100E6695C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AAB2B5D02B100E6695C /* Message.swift */; };
+		041A1AAE2B5D03B400E6695C /* MessagesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AAD2B5D03B400E6695C /* MessagesScreen.swift */; };
+		041A1AB02B5D098100E6695C /* Color+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AAF2B5D098100E6695C /* Color+Extention.swift */; };
+		041A1AB22B5D1AD000E6695C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AB12B5D1AD000E6695C /* ImageLoader.swift */; };
+		041A1AB42B5D1AF400E6695C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AB32B5D1AF400E6695C /* ImageCache.swift */; };
+		041A1AB62B5D1B1000E6695C /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AB52B5D1B1000E6695C /* AsyncImageView.swift */; };
+		041A1AB92B5D1BCF00E6695C /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1AB82B5D1BCF00E6695C /* MessageBubble.swift */; };
+		041A1ABB2B5D1C5900E6695C /* MyMessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1ABA2B5D1C5900E6695C /* MyMessageBubble.swift */; };
+		041A1ABD2B5D1CF900E6695C /* SenderMessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1ABC2B5D1CF900E6695C /* SenderMessageBubble.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041A1A972B5D00DA00E6695C /* Messenger-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messenger-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041A1A9A2B5D00DA00E6695C /* Messenger_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger_SwiftUIApp.swift; sourceTree = "<group>"; };
+		041A1A9C2B5D00DA00E6695C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		041A1A9E2B5D00DD00E6695C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041A1AA12B5D00DD00E6695C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		041A1AA82B5D015D00E6695C /* InboxScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxScreen.swift; sourceTree = "<group>"; };
+		041A1AAB2B5D02B100E6695C /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		041A1AAD2B5D03B400E6695C /* MessagesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesScreen.swift; sourceTree = "<group>"; };
+		041A1AAF2B5D098100E6695C /* Color+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extention.swift"; sourceTree = "<group>"; };
+		041A1AB12B5D1AD000E6695C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		041A1AB32B5D1AF400E6695C /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		041A1AB52B5D1B1000E6695C /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		041A1AB82B5D1BCF00E6695C /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		041A1ABA2B5D1C5900E6695C /* MyMessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMessageBubble.swift; sourceTree = "<group>"; };
+		041A1ABC2B5D1CF900E6695C /* SenderMessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderMessageBubble.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041A1A942B5D00DA00E6695C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041A1A8E2B5D00DA00E6695C = {
+			isa = PBXGroup;
+			children = (
+				041A1A992B5D00DA00E6695C /* Messenger-SwiftUI */,
+				041A1A982B5D00DA00E6695C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041A1A982B5D00DA00E6695C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041A1A972B5D00DA00E6695C /* Messenger-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041A1A992B5D00DA00E6695C /* Messenger-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				041A1AB72B5D1BAF00E6695C /* MessageScreen */,
+				041A1AAA2B5D02A500E6695C /* Models */,
+				041A1A9A2B5D00DA00E6695C /* Messenger_SwiftUIApp.swift */,
+				041A1A9C2B5D00DA00E6695C /* ContentView.swift */,
+				041A1A9E2B5D00DD00E6695C /* Assets.xcassets */,
+				041A1AA02B5D00DD00E6695C /* Preview Content */,
+				041A1AA82B5D015D00E6695C /* InboxScreen.swift */,
+				041A1AAF2B5D098100E6695C /* Color+Extention.swift */,
+				041A1AB12B5D1AD000E6695C /* ImageLoader.swift */,
+				041A1AB32B5D1AF400E6695C /* ImageCache.swift */,
+				041A1AB52B5D1B1000E6695C /* AsyncImageView.swift */,
+			);
+			path = "Messenger-SwiftUI";
+			sourceTree = "<group>";
+		};
+		041A1AA02B5D00DD00E6695C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				041A1AA12B5D00DD00E6695C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		041A1AAA2B5D02A500E6695C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				041A1AAB2B5D02B100E6695C /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		041A1AB72B5D1BAF00E6695C /* MessageScreen */ = {
+			isa = PBXGroup;
+			children = (
+				041A1AAD2B5D03B400E6695C /* MessagesScreen.swift */,
+				041A1AB82B5D1BCF00E6695C /* MessageBubble.swift */,
+				041A1ABA2B5D1C5900E6695C /* MyMessageBubble.swift */,
+				041A1ABC2B5D1CF900E6695C /* SenderMessageBubble.swift */,
+			);
+			path = MessageScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041A1A962B5D00DA00E6695C /* Messenger-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041A1AA52B5D00DD00E6695C /* Build configuration list for PBXNativeTarget "Messenger-SwiftUI" */;
+			buildPhases = (
+				041A1A932B5D00DA00E6695C /* Sources */,
+				041A1A942B5D00DA00E6695C /* Frameworks */,
+				041A1A952B5D00DA00E6695C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messenger-SwiftUI";
+			productName = "Messenger-SwiftUI";
+			productReference = 041A1A972B5D00DA00E6695C /* Messenger-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041A1A8F2B5D00DA00E6695C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					041A1A962B5D00DA00E6695C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 041A1A922B5D00DA00E6695C /* Build configuration list for PBXProject "Messenger-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041A1A8E2B5D00DA00E6695C;
+			productRefGroup = 041A1A982B5D00DA00E6695C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041A1A962B5D00DA00E6695C /* Messenger-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041A1A952B5D00DA00E6695C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A1AA22B5D00DD00E6695C /* Preview Assets.xcassets in Resources */,
+				041A1A9F2B5D00DD00E6695C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041A1A932B5D00DA00E6695C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041A1AB22B5D1AD000E6695C /* ImageLoader.swift in Sources */,
+				041A1ABB2B5D1C5900E6695C /* MyMessageBubble.swift in Sources */,
+				041A1AB02B5D098100E6695C /* Color+Extention.swift in Sources */,
+				041A1AB42B5D1AF400E6695C /* ImageCache.swift in Sources */,
+				041A1AAE2B5D03B400E6695C /* MessagesScreen.swift in Sources */,
+				041A1A9D2B5D00DA00E6695C /* ContentView.swift in Sources */,
+				041A1ABD2B5D1CF900E6695C /* SenderMessageBubble.swift in Sources */,
+				041A1AB62B5D1B1000E6695C /* AsyncImageView.swift in Sources */,
+				041A1AAC2B5D02B100E6695C /* Message.swift in Sources */,
+				041A1AB92B5D1BCF00E6695C /* MessageBubble.swift in Sources */,
+				041A1A9B2B5D00DA00E6695C /* Messenger_SwiftUIApp.swift in Sources */,
+				041A1AA92B5D015D00E6695C /* InboxScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		041A1AA32B5D00DD00E6695C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041A1AA42B5D00DD00E6695C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041A1AA62B5D00DD00E6695C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Messenger-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = R48SV542U7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samaritian.Messenger-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041A1AA72B5D00DD00E6695C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Messenger-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = R48SV542U7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samaritian.Messenger-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041A1A922B5D00DA00E6695C /* Build configuration list for PBXProject "Messenger-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041A1AA32B5D00DD00E6695C /* Debug */,
+				041A1AA42B5D00DD00E6695C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041A1AA52B5D00DD00E6695C /* Build configuration list for PBXNativeTarget "Messenger-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041A1AA62B5D00DD00E6695C /* Debug */,
+				041A1AA72B5D00DD00E6695C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041A1A8F2B5D00DA00E6695C /* Project object */;
+}
